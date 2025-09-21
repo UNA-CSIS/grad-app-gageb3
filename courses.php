@@ -21,19 +21,19 @@ if (isset($_POST['first']) && isset($_POST['last'])) {
     <!-- Course selection form -->
     <!-- Posts selected courses to accomplishments.php -->
     <form action="accomplishments.php" method="POST">
-        <input type="checkbox" id="oop" name="oop" value="1">
+        <input type="checkbox" id="oop" name="oop">
         <label for="oop">Object-oriented Programming</label><br>
 
-        <input type="checkbox" id="analysisdesign" name="analysisdesign" value="1">
+        <input type="checkbox" id="analysisdesign" name="analysisdesign">
         <label for="analysisdesign">Systems Analysis and Design</label><br>
 
-        <input type="checkbox" id="advprogramming" name="advprogramming" value="1">
+        <input type="checkbox" id="advprogramming" name="advprogramming">
         <label for="advprogramming">Advanced Programming</label><br>
 
-        <input type="checkbox" id="networking" name="networking" value="1">
+        <input type="checkbox" id="networking" name="networking">
         <label for="networking">Introduction to Networking</label><br>
 
-        <input type="checkbox" id="security" name="security" value="1">
+        <input type="checkbox" id="security" name="security">
         <label for="security">Introduction to Computer Security</label><br>
 
         <!-- Button submits courses to next page -->
