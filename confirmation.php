@@ -19,11 +19,7 @@ $_SESSION['accomplishments'] = $_POST['accomplishments'];
     <!-- Display selected courses or message if none -->
     <p><strong>Courses:</strong><br>
         <?php 
-            if (!empty($_SESSION['courses'])) {
-                echo implode("<br>", $_SESSION['courses']); // Show courses as line-separated
-            } else {
-                echo "No courses selected.";
-            }
+            echo implode("<br>", $_SESSION['courses']); // Show courses as line-separated
         ?>
     </p>
 
